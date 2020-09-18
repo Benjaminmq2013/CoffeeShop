@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+/*  ******************************* HEADER CONTENT ************************************ */
+.content_container{
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 150px 450px;
+    
+}
+.background-container{    
+    background-image: url(./resources/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;    
+}
+.background-container:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.18)
+}
+.header_container{
+    /*background-color: lightcoral;*/
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.header_container figure{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 93px;
+}
+.header_logo{
+    height: 40px;
+    cursor: pointer;
+}
+.header_buttons{
+    display: grid;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header_buttons ul{
+    display: inherit;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.header_buttons a{
+    color: white;   
+    text-decoration: none; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition-property:color, padding, background-color, border-radius;
+    transition-duration: 25ms;
+}
+.header_buttons a:hover{
+    color: black;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+.header_buttons--signup{
+    display: grid;
+    align-items: center;
+}
+.header_buttons--signup a{
+    color: white;   
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.header_buttons--signup a:hover{
+    color: black;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+.header_buttons--signup ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center
+}
+
+/* **********************************  body_document ********************************* */
+.content_wrapper{
+    /*background-color: lightblue;*/
+}
+.statement_container{    
+    display: inherit;
+    grid-template-columns: 25% 75%;
+}
+.right_statement{    
+    padding: 40px 190px 0px 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.right_statement h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.left_statement h5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+}
+.left_statement{
+    padding-top: 55px;
+    text-align: center;
+    
+
+}
