@@ -1,2 +1,2 @@
 # CoffeeShop
-Prueba las 9 variedades de café que producimos.
+Prueba las 6 variedades de café que producimos.
