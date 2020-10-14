@@ -1,4 +1,6 @@
-
+html{
+    min-width: 1050px;
+}
 body{
     margin: 0;
     font-family: arial;
@@ -290,11 +292,12 @@ body{
 
 footer{
     height: 100px;
+   
     background-color: #AB1313;
     color: white;
     display: flex;
     align-items: center;
-
+    
 }
 footer a{
     color: white;
