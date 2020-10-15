@@ -130,7 +130,7 @@ body{
 
 .items_container{
     display: grid;
-    grid-template-rows: 340px 340px 340px 340px 340px 100px;
+    grid-template-rows: 340px 340px 340px 340px 340px 50px;
     
     
     background-color: #fafafa;
@@ -159,7 +159,7 @@ body{
     color: rgb(129, 81, 8);
     display: inherit;
     grid-template-rows: 30px 1fr;
-    
+    margin: 0px 20px;
     
 }
 .item_title{
@@ -200,7 +200,7 @@ body{
 
 .item_right{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
     align-items: center;
     background-color: #e6e1df;
     padding-right: 90px;
@@ -210,11 +210,12 @@ body{
 
 .item_left{
     display: grid;
-    grid-template-columns:  70% 30%;
+    grid-template-columns:  65% 35%;
     align-items: center;
     margin-right: 90px;
     margin-left: 90px;
     height: 340px;
+    
 }
 
 .item_wrapper{
@@ -291,7 +292,7 @@ body{
 }
 
 footer{
-    height: 100px;
+    height: 120px;
    
     background-color: #AB1313;
     color: white;
@@ -303,4 +304,153 @@ footer a{
     color: white;
     text-decoration: none;
     margin-left: 20px;
+}
+.spacing{
+    height: 20px;
+    background-color: rgb(185, 167, 153);
+    margin-top: 50px;
+}
+.advantages_title{
+    height: 100px;
+    background-color: #e6e1df;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.advantages_title h1{
+    color: #272222;
+    margin: 0px;
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.quality_items-container{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dfe0e6;
+    height: 300px;
+    display: grid;
+    padding: 0px 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    justify-content: center;
+    align-items: center;
+}
+.quality_item-wrapper{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.quality_item{
+    height: 180px;
+    width: 180px;
+    /*    background-color: lightseagreen;  */
+    background-color:rgb(89, 204, 198);
+    border-radius: 15px;
+    transition: 250ms;
+    margin: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.quality_item:hover{
+    transform: scale(1.1)
+}
+.quality_item-paragraph{
+    text-align: center;
+    color: #222326;
+    font-weight: 600;
+}
+
+/*  ********************************   CUSTOMER CARDS   ********************************* */
+.cards_maintitle{
+    height: 100px;
+    display: flex;
+    background-color: rgba(244, 247, 246);
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #272222
+}
+.customer_card-section{
+    font-family: 'Montserrat', sans-serif;
+    height: 500px;
+    background-color: rgba(244, 247, 246);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 90px;
+    justify-content: center;
+    align-items: center;
+}
+.customer_card-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.customer_cards{
+    display: grid;    
+}
+#card_container-left{
+    padding-left: 50px;
+}
+#card_container-right{
+    padding-right: 50px;
+}
+.customer_cards{
+    height: 420px;
+    width: 300px;
+    background-color: rgb(3, 169, 244);
+    display: grid;
+    grid-template-rows: 16% 84%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 5px;
+}
+.customer_card-title{
+    color: white;
+    text-align: center;
+}
+.customer_card-content{
+    background-color: white;
+    border: 3px solid rgb(3, 169, 244);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.units{
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.price{
+    font-size: 35px;
+    margin: 10px 0px 10px 0px;
+    color: rgb(168, 76, 0);
+    text-align: center;
+}
+.time{
+    text-align: center;
+    color: grey;
+}
+.btn_ordenar{
+    height: 45px;
+    width: 190px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(3, 169, 244);
+    color: rgb(3, 169, 244);
+    font-weight: 700;
+    margin: 20px 0px  0px 0px;
+    border-radius: 5px;
+    
+}
+
+.btn_ordenar:hover{
+    background-color: rgb(3, 169, 244);
+    color: white;
 }
