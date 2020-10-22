@@ -159,7 +159,7 @@ body{
     color: rgb(129, 81, 8);
     display: inherit;
     grid-template-rows: 30px 1fr;
-    margin: 0px 20px;
+    margin: 0px 2 0px 20px;
     
 }
 .item_title{
@@ -312,7 +312,7 @@ footer a{
 }
 .advantages_title{
     height: 100px;
-    background-color: #e6e1df;
+    background-color: #dfe0e6;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -453,4 +453,75 @@ footer a{
 .btn_ordenar:hover{
     background-color: rgb(3, 169, 244);
     color: white;
+}
+
+/* *************************   RESPONSIVE DESIGN  ************************* */
+
+@media screen and (max-width: 1024px){
+    .content_container{       
+        grid-template-rows: 6.250em 9.375em 28.125em;
+        
+    }  
+    .header_container figure{
+        padding: 0px;
+    }
+    .header_logo {
+        max-height: 40px;
+    }       
+    .item_left{        
+        grid-template-columns: 71% 29%;
+        margin-left: 48px;
+        margin-right: 59px;
+    }
+    .item_right{        
+        grid-template-columns: 29% 71%;
+        padding-left: 59px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .quality_items-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 280px 280px;
+        height: 590px;
+    }
+    
+    .quality_item {
+        height: 195px;
+        width: 195px;
+    }
+    .advantages_title h1{
+        margin: 15px 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .quality_items-container{
+        padding: 0px 120px;
+    }
+    .quality_item {
+        height: 230px;
+        width: 230px;
+    }
+    .quality_item img{
+        width: 126px;
+    }
+    .quality_item-paragraph{
+        font-size: 20px;
+    }
+    .advantages_title h1{
+        font-size:39px;
+    }
+    .advantages_title{
+        height: 129px;
+    }
+    .quality_items-container{
+        height: 686px;
+        grid-template-rows: 300px 361px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
 }
