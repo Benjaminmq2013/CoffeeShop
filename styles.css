@@ -501,25 +501,73 @@ footer a{
         padding: 0px 120px;
     }
     .quality_item {
-        height: 230px;
-        width: 230px;
+        height: 269px;
+        width: 269px;
     }
     .quality_item img{
-        width: 126px;
+        width: 169px;
     }
     .quality_item-paragraph{
-        font-size: 20px;
+        font-size: 28px;
     }
     .advantages_title h1{
         font-size:39px;
     }
     .advantages_title{
-        height: 129px;
+        height: 185px;
     }
     .quality_items-container{
-        height: 686px;
-        grid-template-rows: 300px 361px;
+        height: 840px;        
+        grid-template-rows: 379px 425px;
+        padding-top: 18px;
     }
+    .quality_item-wrapper {
+        padding: 0px 17%;
+    }
+
+
+
+
+    .customer_card-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 990px 990px;
+        height: 1900px;
+    }
+    .customer_card-title h1{
+        font-size: 48px;
+        
+    }
+    #card_container-left {
+        padding: 0px;
+    }
+    #card_container-right {
+        padding: 0px;
+    }
+    .customer_cards{
+        height: 852px;
+        width: 545px;
+    }
+    .units{
+        font-size: 40px;
+        margin: 19px 0px 23px 0px;
+    }
+    .price{
+        font-size: 75px;
+        margin: 28px 0px 28px 0px;
+    }
+    .time{
+        font-size: 31px;
+        margin: 35px 0px;
+    }
+    .btn_ordenar{
+        font-size: 45px;
+        height: 111px;
+        width: 335px;
+        border: 5px solid rgb(3, 169, 244);
+        border-radius: 14px;
+        margin-top: 30px;
+    }
+    
 }
 
 @media screen and (max-width: 320px){
