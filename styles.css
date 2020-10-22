@@ -537,6 +537,9 @@ footer a{
         font-size: 48px;
         
     }
+    .customer_card-content{
+        border: 6px solid rgb(3, 169, 244);
+    }
     #card_container-left {
         padding: 0px;
     }
@@ -546,10 +549,15 @@ footer a{
     .customer_cards{
         height: 852px;
         width: 545px;
+        grid-template-rows: 19% 81%;
+        border-top-left-radius: 29px;
+        border-top-right-radius: 29px;
+        box-shadow: 0px 0px 13px;
     }
     .units{
         font-size: 40px;
         margin: 19px 0px 23px 0px;
+        border-bottom: 3px solid black;
     }
     .price{
         font-size: 75px;
@@ -561,9 +569,9 @@ footer a{
     }
     .btn_ordenar{
         font-size: 45px;
-        height: 111px;
-        width: 335px;
-        border: 5px solid rgb(3, 169, 244);
+        height: 101px;
+        width: 345px;
+        border: 4px solid rgb(3, 169, 244);
         border-radius: 14px;
         margin-top: 30px;
     }
