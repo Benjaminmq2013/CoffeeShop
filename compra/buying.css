@@ -1,0 +1,145 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_container{
+    /*background-color: lightcoral;*/
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgb(173, 55, 0);
+    box-shadow: 0px 0px 6px;
+    font-style: initial;
+}
+
+.header_container figure{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 93px;
+}
+.header_logo{
+    height: 40px;
+    cursor: pointer;
+}
+.header_buttons{
+    display: grid;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header_buttons ul{
+    display: inherit;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.header_buttons a{
+    color: white;   
+    text-decoration: none; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition-property:color, padding, background-color, border-radius;
+    transition-duration: 25ms;
+}
+.header_buttons a:hover{
+    color: black;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+.header_buttons--signup{
+    display: grid;
+    align-items: center;
+}
+.header_buttons--signup a{
+    color: white;   
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.header_buttons--signup a:hover{
+    color: black;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+.header_buttons--signup ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center
+}
+
+/*  *****************************  MAIN (Cuerpo Principal)  ******************************  */
+
+main{
+    height: 500px;
+    background-color: #fafafa;
+    display: flex;
+}
+
+.Item-select_container{
+    width: 50%;
+}
+
+.Form_container{
+    width: 50%;
+   
+}
+
+
+
+
+.form_register{    
+    display: grid;
+    grid-template-rows: repeat(7, 50px);
+    margin: 100px 20% 0 20%;
+    
+}
+
+.form_register label input{
+    width: 98%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(223, 89, 0);
+    padding: 0 10px;
+    background-color: transparent;
+    outline: none;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+}
+.agreement_wrapper{
+    margin: 0 auto;
+}
+.form_register label input:focus{
+    background-color: rgba(141, 141, 141, 0.034);
+}
+#agreement{
+    width: 25px;;
+    height: initial;
+}
+#btn_enviar{    
+    width: 127px;
+    height: 41px;
+    margin: 0 auto;
+    outline: none;
+    border: 2px solid rgb(223, 89, 0);
+    background-color: transparent;
+    border-radius: 10px;
+    color: rgb(223, 89, 0);
+    font-weight: 600;
+}
+#btn_enviar:hover{
+    background-color: rgb(223, 89, 0);
+    color: white;
+    cursor: pointer;
+}
+
+

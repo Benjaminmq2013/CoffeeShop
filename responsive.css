@@ -1,0 +1,101 @@
+
+/* *************************   RESPONSIVE DESIGN  ************************* */
+
+@media screen and (max-width: 1024px){
+    .content_container{       
+        
+        
+    }  
+    .header_container figure{
+        
+    }
+    .header_logo {
+        
+    }       
+    .item_left{        
+        
+    }
+    .item_right{        
+        
+    }
+}
+
+@media screen and (max-width: 767px){
+    .quality_items-container {
+        
+    }
+    
+    .quality_item {
+        
+    }
+    .advantages_title h1{
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .quality_items-container{
+        
+    }
+    .quality_item {
+        
+    }
+    .quality_item img{
+        
+    }
+    .quality_item-paragraph{
+        
+    }
+    .advantages_title h1{
+       
+    }
+    .advantages_title{
+        
+    }
+    .quality_items-container{
+        
+    }
+    .quality_item-wrapper {
+        
+    }
+
+
+
+
+    .customer_card-section{
+        
+    }
+    .customer_card-title h1{
+        
+        
+    }
+    .customer_card-content{
+        
+    }
+    #card_container-left {
+        
+    }
+    #card_container-right {
+        
+    }
+    .customer_cards{
+        
+    }
+    .units{
+        
+    }
+    .price{
+        
+    }
+    .time{
+        
+    }
+    .btn_ordenar{
+        
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+
+}
