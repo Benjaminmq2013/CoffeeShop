@@ -2,10 +2,7 @@
 /* *************************   RESPONSIVE DESIGN  ************************* */
 
 @media screen and (max-width: 1024px){
-    .content_container{       
-        
-        
-    }  
+      
     .header_container{
         grid-template-columns: 1fr 2fr .5fr;
     }
@@ -37,8 +34,7 @@
         object-fit: cover;     
     }
     .image img{
-        width: 100%; 
-               
+        width: 100%;                
     }
     .item{
         padding-bottom: 17px;
@@ -69,6 +65,9 @@
     }
     .customer_card-section{
         padding: 0px 7.8%;
+    }
+    footer{
+        height: 106px;
     }
     
 }
@@ -230,9 +229,9 @@
         width: 63%;
         position: fixed;
         padding-right: 15%;
-        padding-left: 10%;
-        padding-left: 10px;
+        padding-left: 10%;        
         left: -70vh;
+        z-index: 3;
     }
     
     .header_buttons {
@@ -259,7 +258,7 @@
         position: fixed;
         top: 3vh;
         left: 2vh;
-        z-index: 3;
+        z-index: 4;
     }
     .menu_icon-2{
         width: 45px;
@@ -305,7 +304,8 @@
     }
     .item{
         display: block;
-        margin: 0 auto 104px auto;
+        margin: 0 auto 90px auto;
+        
     }
     .item_left{
         padding: 0 4%;
@@ -313,9 +313,13 @@
     .item_wrapper{
         padding: 0 5%;
     }
+    .items_container{
+        grid-template-rows: 640px 640px 640px 640px 640px;
+    }
     .image{
         max-width: 225px;
         height:225px;
+        z-index:2;
     }
     .image img{
         height: 225px;
@@ -362,7 +366,9 @@
     .header_logo{
     margin-bottom: 5.5vh;
     }
-
+    .background-container{
+        background-position-x: 34%;
+    }
     .customer_card-section{
         
     }
