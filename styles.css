@@ -391,7 +391,7 @@ footer a{
     height: 613px;
     background-color: rgba(244, 247, 246);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     padding: 0px 90px;
     justify-content: center;
     align-items: center;

@@ -59,6 +59,18 @@
     #paragraph-margin {
         margin-bottom: 36px;
     }
+    #card_container-right {
+        padding-right: 0px;
+        padding-left: 1%;
+    }
+    #card_container-left {
+        padding-left: 0px;
+        padding-right:1%;
+    }
+    .customer_card-section{
+        padding: 0px 7.8%;
+    }
+    
 }
 
 @media screen and (max-width: 767px){
@@ -133,6 +145,37 @@
     .advantages_title h1{
         margin: initial;
     }
+    .customer_card-content{
+        width: 222px;
+    }
+    .customer_cards{
+        width: auto;
+        height: 484px;
+        grid-template-rows: 15% 85%;
+    }
+    .customer_cards h3{
+        color:#1b1b1b;
+    }
+    .customer_card-content li{
+        font-size: 12px;
+    }
+    .btn_ordenar{
+        height: 40px;
+        width: 180px;
+    }
+    .price{
+        font-size: 33px;
+    }
+    .units{
+        font-size: 21px;
+        color:#1b1b1b;
+    }
+    .cards_maintitle h1{
+        font-size: 33px;       
+    }
+    .cards_maintitle{
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -142,11 +185,7 @@
         right: initial;
         top: 61vh;
     }
-    .header_container{
-        position: fixed;
-        padding-left: 10px;
-        left: -70vh;        
-    }
+    
     .menu-disappear{
         animation-name: menu-disappear;
         animation-iteration-count: 1;
@@ -161,7 +200,7 @@
     }
     @keyframes menu-appear{
         0%{
-            left: -70vh;
+            left: -80vh;
         }
         100%{
             left: 0vh;
@@ -172,7 +211,7 @@
             left: 0vh;
         }
         100%{
-            left: -70vh;
+            left: -80vh;
         }
     }
     
@@ -192,7 +231,10 @@
         position: fixed;
         padding-right: 15%;
         padding-left: 10%;
+        padding-left: 10px;
+        left: -70vh;
     }
+    
     .header_buttons {
         display: flex;
         flex-direction: column;
@@ -243,7 +285,7 @@
         margin-top: 3vh;
     }
     .main_logo img{       
-        width: 243px;
+        width: 210px;
     }
     .right_statement h1 {
         font-size: 20px;
@@ -278,9 +320,7 @@
     .image img{
         height: 225px;
     }
-    .header_logo{
-
-    }
+    
     
     .quality_items-container{
         height: 397px;
@@ -313,8 +353,15 @@
         width: 131px;
     }
 
-
-
+    .cards_maintitle h1{
+        font-size: 24px;
+    }
+    #paragraph-margin{
+        margin: 13px 0;
+    }
+    .header_logo{
+    margin-bottom: 5.5vh;
+    }
 
     .customer_card-section{
         
@@ -371,4 +418,32 @@
     .advantages_title h1 {
         font-size: 24px;
     }    
+    .quality_item {
+        height: 111px;
+        width: 111px
+    }
+    .quality_item-wrapper {
+        width: 111px;
+    }
+    .cards_maintitle{
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 689px){
+    .customer_card-section{
+
+        grid-template-columns: 1fr;
+        height: 1071px;
+        padding-bottom:20px;
+    }
 }
