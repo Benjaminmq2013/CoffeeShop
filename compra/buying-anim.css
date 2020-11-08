@@ -1,0 +1,51 @@
+.options_show{
+    animation-name: options_show;
+    animation-duration: .5s;
+    animation-iteration-count:1;
+    animation-fill-mode: both;
+}
+.options_hide{
+    animation-name: options_hide;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes options_show{
+    0%{
+        top:-100vh;
+        height: 0px;
+    }
+    1%{
+        top:29vh;
+        opacity:0;
+        
+    }
+    40%{
+        height: 0px;
+    }
+    100%{
+        top:38vh;
+        opacity: 1;
+        height: 360px;
+    }
+}
+
+@keyframes options_hide{
+    0%{
+        top:38vh;
+        opacity: 1;
+        height:360px;
+    }
+    60%{
+        height:0px;
+        opacity:0; 
+        top:38vh;               
+    }    
+    61%{
+        top:-100vh
+    }
+    100%{
+        top:-100vh;
+    }
+}

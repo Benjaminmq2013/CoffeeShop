@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zilla+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="buying.css">
     <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="buying-anim.css">
     
     <title>Buying</title>
 </head>
@@ -66,15 +67,20 @@
     <main>        
         <section class="Item-select_container">
             <div class="product_selector-container">
-                <select name="product_selection" class="product_selector">
-                     <option value="" class="product-option">Selecciona tu producto</option>
-                     <option value="" class="product-option">MOKA</option>
-                     <option value="" class="product-option">JAVA</option>
-                     <option value="" class="product-option">KENIA</option>
-                     <option value="" class="product-option">TARRAZÚ</option>
-                     <option value="" class="product-option">PEABERRY</option>
-                </select>
-            </div>
+                <div class="product_selection-wrapper">
+
+                    <div class="product_selector"><h2>Selecciona tu producto</h2></div></div>
+                
+                    <div class="options_container">                        
+                        <div value="" class="product-option">MOKA</div>
+                        <div value="" class="product-option">JAVA</div>
+                        <div value="" class="product-option">KENIA</div>
+                        <div value="" class="product-option">TARRAZÚ</div>
+                        <div value="" class="product-option">PEABERRY</div>
+                    </div>
+
+                </div>
+                   
 
             <div class="product_preview-container">
                 <div class="product_preview">
@@ -138,5 +144,7 @@
         
     </footer>
     <script src="../anim.js"></script>
+
+    <script src="./buying.js"></script>
 </body>
 </html>
