@@ -6,11 +6,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zilla+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="buying.css">
+    <link rel="stylesheet" href="../responsive.css">
+    
     <title>Buying</title>
 </head>
 <body>
+    <div class="menu_container">
+
+        <figure  class="menu_icon-2" id="btn_menu">
+            <img src="../resources/icons/icons8-menu-192.png" alt="Menu_icon">
+        </figure>
+    </div>
+
     <header class="header">
+
+        <figure class="main_logo">
+            <a href="https://benjaminmq2013.github.io/CoffeeShop/">
+                <img class="" src="../resources/logo.png" alt="Coffee Logo">
+            </a>
+        </figure>
+
         <var class="header_container">
+        
             <figure>
                 <a href="https://benjaminmq2013.github.io/CoffeeShop/">
                     <img class="header_logo" src="../resources/logo.png" alt="Coffee Logo">
@@ -32,6 +49,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="header_buttons--signup">
                 <ul>
                     <li>
@@ -39,14 +57,47 @@
                     </li>
                 </ul>
             </div>
+
         </var>
+        
     </header>
 
 
-    <main>
-
+    <main>        
         <section class="Item-select_container">
+            <div class="product_selector-container">
+                <select name="product_selection" class="product_selector">
+                     <option value="" class="product-option">Selecciona tu producto</option>
+                     <option value="" class="product-option">MOKA</option>
+                     <option value="" class="product-option">JAVA</option>
+                     <option value="" class="product-option">KENIA</option>
+                     <option value="" class="product-option">TARRAZÚ</option>
+                     <option value="" class="product-option">PEABERRY</option>
+                </select>
+            </div>
 
+            <div class="product_preview-container">
+                <div class="product_preview">
+                    <h1>Producto 1 - Preview</h1>
+                    <figure>
+                        <img src="../resources/coffee_packages.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="add_products-container">
+
+                <div class="final_price">
+                    <h3>$17:99</h3>                    
+                </div>
+
+                <div class="quantity-controll">
+                    <div class="button- quantity-item"> <button>-</button> </div>
+                    <div class="quantity quantity-item"> <p>1</p> </div>
+                    <div class="button+ quantity-item"> <button>+</button> </div>
+                </div>
+
+            </div>
         </section>
 
         <section class="Form_container">
@@ -72,11 +123,11 @@
                 </label>
         
                 <label for="agreement" class="agreement_wrapper">
-                    <Span> <a href="">Acepto los términos y condiciones</a> </Span>
+                    <Span> <a class="agreement-a" href="">Acepto los términos y condiciones</a> </Span>
                     <input type="checkbox" id="agreement"  name="agreement" required>
                 </label>
         
-                <input type="submit" id="btn_enviar">
+                <input type="submit" id="btn_enviar" value="Pagar">
             </form>
         </section>
 
@@ -84,7 +135,8 @@
 
 
     <footer>
-
+        
     </footer>
+    <script src="../anim.js"></script>
 </body>
 </html>

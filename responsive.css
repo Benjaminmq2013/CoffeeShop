@@ -281,7 +281,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 3vh;
+        padding-top: 3vh;
     }
     .main_logo img{       
         width: 210px;
@@ -324,7 +324,9 @@
     .image img{
         height: 225px;
     }
-    
+    #details_image-simbol1{
+        height:16px;
+    }
     
     .quality_items-container{
         height: 397px;
