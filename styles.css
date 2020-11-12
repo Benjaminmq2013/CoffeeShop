@@ -67,7 +67,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     transition-property:color, padding, background-color, border-radius;
-    transition-duration: 25ms;
+    
 }
 .header_buttons a:hover{
     color: black;

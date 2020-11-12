@@ -1,7 +1,7 @@
 const main_menu = document.getElementById("Menu_Deslizante") //Position swipeUp, SwipeDown
 const main_menu_color = document.querySelector(".menu_container-d") //Opacidad
 const main_menu_color2 = document.querySelector(".menu_opacity") //Opacidad (del boton)
-console.log(main_menu_color2)
+
 
 function MiFuncion(){
     if (main_menu.classList.contains("show")){
