@@ -168,6 +168,21 @@ main{
     margin: 0;
     font-size: 24px;
     position: relative;
+    margin-bottom: 6%;
+}
+.selection_icon{
+    height: 24px;
+    margin: none;
+    position: absolute;
+    z-index: 3;
+    margin-top: 5%;
+    transition: .3s;
+}
+.selection_icon-rotate{
+    transform: rotateZ(180deg)
+}
+.selection_icon img{
+    height: 100%;
 }
 .product_selector{
     background-image: url("../resources/coffeeBackground.jpg");
@@ -202,35 +217,34 @@ main{
     z-index: 2;
     color: white;
     border-radius: 15px;
-    overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
     width: 296px;
     height: auto;
     background-color: rgba(199, 0, 109, 0.918);
     text-align: center; 
-    padding: 8px 0px;   
+      
 }
 .product_selection-wrapper{
     width: 338px
 }
 .product-option{
-    height: 62px;
-    width: 80%;
+    height: 72px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1%; 
-    margin: 7px auto;
-    border-radius: 20px;
+    border-bottom: 3px solid rgb(255, 136, 0);
+    
 
 }
 .product-option::before{
     content:"";
     height: 100%;
-    width: 80%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.144);
     position: absolute;
-    height: 62px;
-    border-radius: 20px;
+    height: 72px;    
 }
 .product-option p{
     position: relative;
@@ -287,8 +301,7 @@ main{
 }
 */
 
-.product_preview-container{
-    
+.product_preview-container{    
     height: 229px;
     display: flex;
     justify-content: center;

@@ -11,6 +11,7 @@ function show_hide(){
         options_menu.classList.add("options_show")
         options_menu.classList.remove("options_hide")
     }
+    selection_rotate()
 }
 
 //      ******************** Cantidad del producto - control ********************
@@ -45,3 +46,8 @@ function substract_product(){
     final_priceh3.textContent=("$"+price.toFixed(2));
 }
 
+/**********  ROTANDO ICONO DEL MENÚ DE SELECCIÓN  *********/
+const selection_icon = document.querySelector(".selection_icon")
+function selection_rotate(){
+    selection_icon.classList.toggle("selection_icon-rotate");
+}
