@@ -226,3 +226,20 @@
     width: 100%;
     
 }
+
+
+
+.arrow{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    height: 22px;
+    margin-right: 17%;
+    transition: .3s;
+}
+.arrow img{
+    height: 22px;
+}
+.arrow_rotate{
+    transform: rotateZ(180deg)
+}

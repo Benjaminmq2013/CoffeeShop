@@ -27,7 +27,7 @@
     100%{
         top:38vh;
         opacity: 1;
-        height: 360px;
+        height: 355px;
     }
 }
 
@@ -35,7 +35,7 @@
     0%{
         top:38vh;
         opacity: 1;
-        height:360px;
+        height: 355px;
     }
     60%{
         height:0px;

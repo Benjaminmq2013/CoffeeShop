@@ -71,12 +71,20 @@
 
                     <div class="product_selector"><h2>Selecciona tu producto</h2></div></div>
                 
-                    <div class="options_container">                        
-                        <div value="" class="product-option">MOKA</div>
-                        <div value="" class="product-option">JAVA</div>
-                        <div value="" class="product-option">KENIA</div>
-                        <div value="" class="product-option">TARRAZÚ</div>
-                        <div value="" class="product-option">PEABERRY</div>
+                    <div class="options_container"> 
+                        <div class="option_container-limits">
+                            <div value="" class="product-option" id="product-option_moka"> <p>MOKA</p> </div>
+                        </div>                       
+
+                        <div value="" class="product-option" id="product-option_java">                             
+                             <p>JAVA</p> 
+                            </div>
+                        <div value="" class="product-option" id="product-option_kenia"> <p>KENIA</p> </div>
+                        <div value="" class="product-option" id="product-option_tarrazu"> <p>TARRAZÚ</p> </div>
+                        <div value="" class="product-option" id="product-option_peaberry">
+                            <p>PEABERRY</p> 
+                            <div class="oscurecer"></div>
+                            </div>
                     </div>
 
                 </div>
@@ -94,13 +102,13 @@
             <div class="add_products-container">
 
                 <div class="final_price">
-                    <h3>$17:99</h3>                    
+                    <h3 id="final_priceh3">$17:99</h3>                    
                 </div>
 
                 <div class="quantity-controll">
-                    <div class="button- quantity-item"> <button>-</button> </div>
-                    <div class="quantity quantity-item"> <p>1</p> </div>
-                    <div class="button+ quantity-item"> <button>+</button> </div>
+                    <div class="button- quantity-item"  id="btn_less"> <button>-</button> </div>
+                    <div class="quantity quantity-item"> <p id="quantity_displaying">1</p> </div>
+                    <div class="button+ quantity-item"> <button id="btn_more">+</button> </div>
                 </div>
 
             </div>
@@ -143,7 +151,7 @@
     <footer>
         
     </footer>
-    <script src="../anim.js"></script>
+    <script src="../scripts/anim.js"></script>
 
     <script src="./buying.js"></script>
 </body>

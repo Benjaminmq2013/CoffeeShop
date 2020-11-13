@@ -15,13 +15,16 @@ function MiFuncion(){
     
 main_menu_color.classList.add("menu-opacity");
 main_menu_color2.classList.toggle("menu-opacity")    
-    
+    rotate()
 }
 
 
-
-
-
+//  *********** ANIMANDO FLECHA DEL MENÚ (arrow-rotate)
+const arrow_menu = document.getElementById("arrow_menu")
+// arrow_menu.addEventListener("click", rotate)
+function rotate(){
+    arrow_menu.classList.toggle("arrow_rotate")    
+}
 
 
 
