@@ -48,6 +48,24 @@ function substract_product(){
 
 /**********  ROTANDO ICONO DEL MENÚ DE SELECCIÓN  *********/
 const selection_icon = document.querySelector(".selection_icon")
+selection_icon.addEventListener("click", show_hide)
 function selection_rotate(){
     selection_icon.classList.toggle("selection_icon-rotate");
+}
+
+
+
+/************  FUNCION DE LAS OPCIONES DEL MENÚ (SELECCIONIAR PRODUCTO)  ************ */
+const product_option_moka = document.getElementById("product-option_moka")
+const product_option_java = document.getElementById("product-option_java")
+const product_option_kenia = document.getElementById("product-option_kenia")
+const product_option_tarrazu = document.getElementById("product-option_tarrazu")
+const product_option_peaberry = document.getElementById("product-option_peaberry")
+
+const selected_product = document.getElementById("selected_product");
+
+product_option_moka.addEventListener("click", select_moka)
+
+function select_moka(){
+    selected_product.src=("../resources/moka.webp");
 }

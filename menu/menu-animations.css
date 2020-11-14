@@ -1,7 +1,7 @@
 /*  *********************************  MENU DE NAVEGACIÓN LATERAL principal  **********************************  */
 .navigation_menu-d{
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     bottom: 0;
     right: 0;
     margin-bottom: 10px;
