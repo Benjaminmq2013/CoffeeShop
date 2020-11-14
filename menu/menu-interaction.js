@@ -10,6 +10,9 @@ project3.addEventListener("click", my_project)
 
 function MyPortfolio (){    
     window.open("https://benjaminmq2013.github.io/", "_self");    
+
+    coffee_store.classList.remove("option-border")
+    portafolios.classList.add("option-border")
 }
 
 function MyCoffee (){

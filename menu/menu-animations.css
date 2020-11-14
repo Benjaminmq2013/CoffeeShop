@@ -5,7 +5,7 @@
     bottom: 0;
     right: 0;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 10px; 
     
 }
 
@@ -22,6 +22,7 @@
     font-size: 20px;
     flex-direction: column;  
     cursor:pointer;   
+    box-shadow: 0px 0px 7px black;
 }
 .menu_container-d:hover{
     background-color: rgba(47, 23, 133, 0.945);
@@ -106,7 +107,7 @@
     justify-content: center;
     margin: 5px 0px;
     border-radius: 20px;
-    width: 90%;
+    width: 90%;    
 }
 
 .navigation_menu-d small{
@@ -116,7 +117,10 @@
     margin: 3px 0px;
 }
 
-
+.option-border{
+    border: 3px solid rgb(243, 243, 243);
+    box-shadow: 0px 0px 4px black;    
+}
 
 
 
@@ -125,8 +129,7 @@
 #CoffeeOption{   
     background-image: url("./menu_images/coffee.jpg");
     background-size: cover;
-    position: relative;
-    border: 3px solid rgb(243, 243, 243);
+    position: relative;    
     background-position-y: 36%;
     --background_pseudo: rgba(0, 0, 0, 0.219);
 }

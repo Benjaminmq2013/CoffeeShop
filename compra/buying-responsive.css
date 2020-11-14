@@ -1,0 +1,32 @@
+/*
+@media (min-width: 1920px){
+    .header{
+        margin: 0px 20%;
+    }
+
+}*/
+@media screen and (max-width: 1024px){
+    .form_register{
+        margin: 100px 29% 0 10%;
+
+    }
+    .Item-select_container {        
+        margin-left: 0%;
+    }
+    .product_selector-container{
+        margin-left: 12%;
+    }
+    .product_preview-container {
+        margin-left: 12%;
+    }
+    .add_products-container {
+        margin-left: 12%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .form_register{
+        margin: 100px 9% 0 10%;
+    }
+}

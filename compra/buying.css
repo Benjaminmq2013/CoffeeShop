@@ -12,6 +12,9 @@ html, body{
     background-color: rgb(148, 48, 2);
     box-shadow: 0px 0px 6px;
     font-style: initial;
+    box-shadow: 0px 0px 6px;
+    position: relative;
+    z-index:2;
 }
 
 .header_container figure{
@@ -97,6 +100,7 @@ main{
 
 .Item-select_container{
     width: 50%;
+    margin-left: 5%;
 }
 
 .Form_container{
@@ -110,7 +114,7 @@ main{
 .form_register{    
     display: grid;
     grid-template-rows: repeat(7, 50px);
-    margin: 100px 20% 0 20%;
+    margin: 100px 38% 0 10%;
     
 }
 
@@ -157,12 +161,12 @@ main{
 
 
 .product_selector-container{
-    
     height: 102px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-left: 16%;
 }
 .product_selector h2{
     margin: 0;
@@ -307,6 +311,7 @@ main{
     justify-content: center;
     align-items: center;
     z-index: 1;
+    margin-left: 16%;
 }
 .product_preview{
     
@@ -329,7 +334,7 @@ main{
     border-radius: 20px;
     max-width: 300px;
     object-fit: cover;
-   
+    
     z-index: 1;
 }
 .product_preview img{
@@ -343,6 +348,7 @@ main{
     align-items: center;
     height: 100px;
     flex-direction: column;
+    margin-left:16%;
 }
 .final_price h3{
     margin: 0;
