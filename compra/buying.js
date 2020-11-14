@@ -62,10 +62,36 @@ const product_option_kenia = document.getElementById("product-option_kenia")
 const product_option_tarrazu = document.getElementById("product-option_tarrazu")
 const product_option_peaberry = document.getElementById("product-option_peaberry")
 
-const selected_product = document.getElementById("selected_product");
+const coffee_bag = document.getElementById("coffee_bag");
+coffee_bag.addEventListener("click", show_hide)
 
 product_option_moka.addEventListener("click", select_moka)
+product_option_java.addEventListener("click", select_java)
+product_option_kenia.addEventListener("click", select_kenia)
+product_option_tarrazu.addEventListener("click", select_tarrazu)
+product_option_peaberry.addEventListener("click", select_peaberry)
 
 function select_moka(){
     selected_product.src=("../resources/moka.webp");
+    show_hide()
+}
+
+function select_java(){
+    selected_product.src=("../resources/java.jpg");
+    show_hide()
+}
+
+function select_kenia (){
+    selected_product.src=("../resources/kenia.jpg")
+    show_hide()
+}
+
+function select_tarrazu (){
+    selected_product.src=("../resources/tarrazu.jpg");
+    show_hide();
+}
+
+function select_peaberry(){
+    selected_product.src=("../resources/peaberry.jpg");
+    show_hide();
 }

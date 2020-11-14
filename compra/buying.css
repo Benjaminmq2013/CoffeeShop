@@ -257,39 +257,66 @@ main{
 
 #product-option_moka{
     background-image: url("../resources/moka.webp");
-    background-size: cover;
+    background-size: 100%;
     background-position-y: 43%;
+    background-position-x: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+#product-option_moka:hover{
+    background-size: 116%;    
 }
 
 
 #product-option_java{
     background-image: url("../resources/java.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position-y: 42%;
+    background-position-x: 50%;
+    transition: .3s;
+    cursor: pointer;
 }
-
+#product-option_java:hover{
+    background-size: 116%;    
+}
 
 
 #product-option_kenia{
     background-image: url("../resources/kenia.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position-y:39%;
+    background-position-x: 50%;
+    transition: .3s;
+    cursor: pointer;
 }
-
+#product-option_kenia:hover{
+    background-size: 116%;    
+}
 
 
 #product-option_tarrazu{
     background-image: url("../resources/tarrazu.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position-y: 24%;
+    background-position-x: 50%;
+    transition: .3s;
+    cursor: pointer;
 }
-
+#product-option_tarrazu:hover{
+    background-size: 116%;    
+}
 
 
 #product-option_peaberry{
     background-image: url("../resources/peaberry.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position-y: 49%;
+    background-position-x: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+#product-option_peaberry:hover{
+    background-size: 116%;    
 }
 
 /*
@@ -325,7 +352,7 @@ main{
 .product_preview h1{
     margin: 0; 
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     color: white;
     display: none;
 }
@@ -333,14 +360,14 @@ main{
     margin: 0;
     border-radius: 20px;
     max-width: 300px;
-    object-fit: cover;
+    object-fit: cover;    
     
-    z-index: 1;
 }
 .product_preview img{
     width: 100%;
     border-radius: 20px;
-    
+    position: relative;
+    z-index: 1;
 }
 .add_products-container{
     display: flex;
@@ -349,6 +376,7 @@ main{
     height: 100px;
     flex-direction: column;
     margin-left:16%;
+    padding-left: 19%;
 }
 .final_price h3{
     margin: 0;
@@ -390,4 +418,12 @@ main{
 }
 .quantity-item button:active{
     background-color: rgb(41, 19, 163);
+}
+#selected_product{
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    left: 23%;
+    bottom: 12%;
+    object-fit: auto;
 }
