@@ -19,8 +19,8 @@
     .product_preview-container {
         margin-left: 12%;
     }
-    .add_products-container {
-        
+    .selection_icon{
+        margin-top: 6%;
     }
     
 }
@@ -29,6 +29,9 @@
 @media screen and (max-width: 768px){
     .form_register{
         margin: 100px 9% 0 10%;
+    }
+    .selection_icon{
+        margin-top: 8%;
     }
 }
 
@@ -39,8 +42,8 @@
     .product_preview-container {
         margin-left: 2%;
     }
-    .add_products-container {
-        
+    .selection_icon {
+        margin-top: 11%;
     }
 }
 
@@ -71,4 +74,42 @@
     .Item-select_container{
         margin: 0;
     }
+    @keyframes options_show{
+        0% {
+            top: -100vh;
+            height: 0px;
+        }
+        1% {
+            top: 29vh;
+            opacity: 0;
+        }
+        40% {
+            height: 0px;
+        }
+        100% {
+            top: 30vh;
+            opacity: 1;
+            height: 372px;
+        }
+    }
+
+    @keyframes options_hide{
+        0%{
+            top:30vh;
+            opacity: 1;
+            height: 372px;
+        }
+        60%{
+            height:0px;
+            opacity:0; 
+            top:38vh;               
+        }    
+        61%{
+            top:-100vh
+        }
+        100%{
+            top:-100vh;
+        }
+    }
+
 }
