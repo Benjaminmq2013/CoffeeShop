@@ -370,14 +370,20 @@ main{
     position: relative;
     z-index: 1;
 }
+.control_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
 .add_products-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    flex-direction: column;
-    margin-left:16%;
-    padding-left: 19%;
+    height: 100px;    
+    padding-left: 17%;
+    
 }
 .selected_product-img-container{
     margin: 0;
@@ -423,8 +429,7 @@ main{
 .quantity-item button:active{
     background-color: rgb(41, 19, 163);
 }
-#selected_product{
-    position: absolute;
+#selected_product{    
     height: 80px;
     width: 120px;
     left: 23.5%;
