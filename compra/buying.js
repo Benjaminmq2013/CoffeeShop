@@ -65,6 +65,8 @@ const product_option_peaberry = document.getElementById("product-option_peaberry
 const coffee_bag = document.getElementById("coffee_bag");
 coffee_bag.addEventListener("click", show_hide)
 
+h3_selected_text = document.getElementById("h3_selected_text");
+
 product_option_moka.addEventListener("click", select_moka)
 product_option_java.addEventListener("click", select_java)
 product_option_kenia.addEventListener("click", select_kenia)
@@ -74,24 +76,29 @@ product_option_peaberry.addEventListener("click", select_peaberry)
 function select_moka(){
     selected_product.src=("../resources/moka.webp");
     show_hide()
+    h3_selected_text.textContent="Moka Seleccionado"
 }
 
 function select_java(){
     selected_product.src=("../resources/java.jpg");
     show_hide()
+    h3_selected_text.textContent="Java Seleccionado"
 }
 
 function select_kenia (){
     selected_product.src=("../resources/kenia.jpg")
     show_hide()
+    h3_selected_text.textContent="Kenia Seleccionado"
 }
 
 function select_tarrazu (){
     selected_product.src=("../resources/tarrazu.jpg");
     show_hide();
+    h3_selected_text.textContent="Tarrazú Seleccionado"
 }
 
 function select_peaberry(){
     selected_product.src=("../resources/peaberry.jpg");
     show_hide();
+    h3_selected_text.textContent="Peaberry Seleccionado"
 }

@@ -169,10 +169,11 @@ main{
     margin-left: 16%;
 }
 .product_selector h2{
-    margin: 0;
+    margin: 0 auto;
     font-size: 24px;
     position: relative;
     margin-bottom: 6%;
+    text-align: center;
 }
 .selection_icon{
     height: 24px;
@@ -378,6 +379,9 @@ main{
     margin-left:16%;
     padding-left: 19%;
 }
+.selected_product-img-container{
+    margin: 0;
+}
 .final_price h3{
     margin: 0;
     margin-bottom: 5px;
@@ -423,7 +427,7 @@ main{
     position: absolute;
     height: 80px;
     width: 120px;
-    left: 23%;
-    bottom: 12%;
+    left: 23.5%;
     object-fit: auto;
+    border-radius:20px;
 }

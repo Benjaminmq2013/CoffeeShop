@@ -1,3 +1,4 @@
+// *****************  MENU PARA MOVILES  *****************
 const lateral_menu = document.querySelector(".header_container")
 const botoncito = document.getElementById("btn_menu")
 
@@ -16,7 +17,6 @@ function leftRight(){
         lateral_menu.classList.remove("menu-disappear")
         lateral_menu.classList.add("menu-appear")
     }
-    
-
-
 }
+
+// *****************  DESPLEGABLES PARA OPCIONES DEL MENÚ  *****************
