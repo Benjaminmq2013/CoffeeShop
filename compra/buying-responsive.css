@@ -59,8 +59,8 @@
     }
     main{
         flex-direction: column;
-        height: 1059px;
-    }
+        height: 1019px;
+    }    
     .product_preview-container {
         margin-left: 0;
     }
@@ -73,6 +73,9 @@
     }
     .Item-select_container{
         margin: 0;
+    }
+    .form_register {
+        margin: 65px 9% 0 10%;
     }
     @keyframes options_show{
         0% {

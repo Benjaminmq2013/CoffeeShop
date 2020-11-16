@@ -436,3 +436,7 @@ main{
     object-fit: auto;
     border-radius:20px;
 }
+
+footer{    
+    background-color: #bd3824;
+}
