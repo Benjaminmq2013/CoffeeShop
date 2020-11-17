@@ -371,6 +371,22 @@
     }
     
     
+
+    .drop-down{
+        display: none;
+    }
+    .menu_button_container:hover .ordenar_option{    
+        display: none;
+    }
+    .menu_variedades_container:hover .variedades_option{
+        display: none;
+    }
+    .menu_ubicacion_container:hover .ubicacion_option{
+        display:none;
+    }
+    .menu_contacto_container:hover .contactanos_option{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px){
