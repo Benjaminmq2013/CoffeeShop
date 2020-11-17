@@ -27,8 +27,8 @@
                 <img class="" src="../resources/logo.png" alt="Coffee Logo">
             </a>
         </figure>
-
-        <var class="header_container">
+        
+        <div class="header_container">
         
             <figure>
                 <a href="https://benjaminmq2013.github.io/CoffeeShop/">
@@ -37,18 +37,49 @@
             </figure>
             <div class="header_buttons">
                 <ul>
-                    <li>
-                        <a href="">Ordenar</a>
-                        <div class="ordenar_option"></div>
+
+                    <li class="menu_button_container">
+                        <a id="ordenar_button" href="">Ordenar</a>
+                        <div class="drop-down ordenar_option">
+                            <ul>
+                                <li>Para consumidores</li>
+                                <li>Para distribuidores</li>
+                            </ul>
+                        </div> 
                     </li>
-                    <li>
+
+
+                    <li class="menu_variedades_container"> 
                         <a href="">Variedades</a>
+                        <div class="drop-down variedades_option">
+                            <ul>
+                                <li>Moka</li>
+                                <li>Java</li>
+                                <li>Kenia</li>
+                                <li>Tarrazú</li>
+                                <li>Peaberry</li>
+                            </ul>
+                        </div> 
                     </li>
-                    <li>
+
+
+                    <li class="menu_ubicacion_container">
                         <a href="">Cómo llegar</a>
+                        <div class="drop-down ubicacion_option">                               
+                            <div id="map"></div>
+                        </div>
                     </li>
-                    <li>
+
+
+
+                    <li class="menu_contacto_container">
                         <a href="">Contáctanos</a>
+                        <div class="drop-down contactanos_option">
+                            <ul>
+                                <li>E-mail: coffeeshop@example.com</li>
+                                <li>Teléfono: +5 5555-5555</li>
+                            </ul>
+                        </div> 
                     </li>
                 </ul>
             </div>
@@ -61,7 +92,7 @@
                 </ul>
             </div>
 
-        </var>
+        </div>
         
     </header>
 
@@ -161,7 +192,10 @@
         
     </footer>
     <script src="../scripts/anim.js"></script>
-
     <script src="./buying.js"></script>
+
+    <!-- GOOGLE MAPS SCRIPTS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC594eCByEbwIj13kCr839YJqAoMUuqHc4&callback=initMap&libraries=&v=weekly"defer></script>
+    <script src="../maps_files/maps.js"></script>
 </body>
 </html>

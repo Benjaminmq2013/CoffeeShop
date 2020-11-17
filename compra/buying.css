@@ -40,6 +40,7 @@ html, body{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    padding-left: 6%;
 }
 
 .header_buttons a{
@@ -202,7 +203,7 @@ main{
     display: flex;
     align-items: center;
     cursor: pointer;
-    z-index: 3;
+    z-index: 1;
     position: relative;
     overflow: hidden;
 }
@@ -477,4 +478,117 @@ main{
 footer{    
     background-color: #bd3824;
     height: 106px;
+}
+
+
+
+
+/*  ***********************  MENÚS DESPLEGABLES (VAR)  ***********************  */
+
+.menu_button_container{
+    position: relative;
+}
+.drop-down{
+    background-color: rgb(240, 240, 240);
+    z-index: 5;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px;
+    display: none;
+    border: 3px solid rgb(211, 102, 0);  
+    overflow:hidden;      
+}
+.ordenar_option{
+    height: 100px;
+    width: 200px;   
+    margin-right: 10px;
+    left: -20px;
+    top: 29px;
+}
+
+.ordenar_option ul li{
+    color: rgb(34, 34, 34);
+    margin: 18px 15px 0px 5px;;
+    border-bottom: 3px solid rgb(228, 77, 7);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.menu_button_container:hover .ordenar_option{    
+    display: block;
+    
+}
+
+/*  ********************* VARIEDADES */
+.menu_variedades_container{
+    position: relative;
+    
+}
+.menu_variedades_container:hover .variedades_option{
+    display: block;
+    
+}
+.variedades_option{
+    display: none;
+    width: 200px;
+    height: 240px;
+    top: 29px;
+    left: -28px;
+    
+}
+
+
+.variedades_option li{
+    color: rgb(34, 34, 34);
+    margin: 18px 15px 0px 5px;;
+    border-bottom: 3px solid rgb(228, 77, 7);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* *********************  CÓMO LLEGAR */
+
+.menu_ubicacion_container{
+    position: relative;
+}
+.menu_ubicacion_container:hover .ubicacion_option{
+    display:block;
+}
+.ubicacion_option{
+    width: 200px;
+    height: 250px;
+    top: 29px;
+    left: -28px;
+}
+#map {
+    height:100%; 
+    width: 100%;   
+  }
+
+
+/*  ********************  CONTÁCTANOS */
+.menu_contacto_container{
+    position: relative;
+}
+.menu_contacto_container:hover .contactanos_option{
+    display: block;
+}
+
+.contactanos_option{
+    height: 125px;
+    width: 272px;
+    margin-right: 10px;
+    left: -60px;
+    top: 29px;
+    
+}  
+    
+    
+.contactanos_option ul li{
+    color: rgb(34, 34, 34);
+    margin: 18px 15px 0px 5px;;
+    border-bottom: 3px solid rgb(228, 77, 7);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }

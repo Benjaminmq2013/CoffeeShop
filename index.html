@@ -104,16 +104,23 @@
                             </li>
 
 
-                            <li>
+                            <li class="menu_ubicacion_container">
                                 <a href="">Cómo llegar</a>
-                                <div>
-                                    <h3>Demostración Google Maps</h3>
-                                <!--The div element for the map -->
-                                <div id="map"></div>
+                                <div class="drop-down ubicacion_option">                               
+                                    <div id="map"></div>
                                 </div>
                             </li>
-                            <li>
+
+
+
+                            <li class="menu_contacto_container">
                                 <a href="">Contáctanos</a>
+                                <div class="drop-down contactanos_option">
+                                    <ul>
+                                        <li>E-mail: coffeeshop@example.com</li>
+                                        <li>Teléfono: +5 5555-5555</li>
+                                    </ul>
+                                </div> 
                             </li>
                         </ul>
                     </div>
@@ -419,10 +426,7 @@
 
 
     <!-- GOOGLE MAPS SCRIPTS -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC594eCByEbwIj13kCr839YJqAoMUuqHc4&callback=initMap&libraries=&v=weekly"defer></script>
     <script src="./maps_files/maps.js"></script>
 </body>
 
