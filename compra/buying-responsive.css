@@ -1,10 +1,27 @@
-/*
-@media (min-width: 1920px){
-    .header{
-        margin: 0px 20%;
+@media (min-width: 1370px){
+    .header_container{
+        margin: 0px 10%;
     }
+    .header{
+        background-color: rgb(148, 48, 2);
+        margin-bottom:7%;
+    }
+    main{
+        height: 70vh;
+    }
+    .selection_icon{
+        margin-top: 4%;
+    }
+}
+@media (min-width: 1920px){
+    .header_container{
+        margin: 0px 15%;
+    }
+    .selection_icon {
+        margin-top: 3%;
+    }
+}
 
-}*/
 @media screen and (max-width: 1024px){
     .form_register{
         margin: 100px 29% 0 10%;

@@ -62,6 +62,10 @@ const product_option_kenia = document.getElementById("product-option_kenia")
 const product_option_tarrazu = document.getElementById("product-option_tarrazu")
 const product_option_peaberry = document.getElementById("product-option_peaberry")
 
+const selected_product_name = document.getElementById("selected_product_name");
+
+const verification_check = document.getElementById("verification_check")
+
 const coffee_bag = document.getElementById("coffee_bag");
 coffee_bag.addEventListener("click", show_hide)
 
@@ -77,28 +81,48 @@ function select_moka(){
     selected_product.src=("../resources/moka.webp");
     show_hide()
     h3_selected_text.textContent="Moka Seleccionado"
+    selected_product_name.textContent="Moka"
+
+    verification_check.classList.remove("check_dissapear")
+    verification_check.classList.add="check_appear"
 }
 
 function select_java(){
     selected_product.src=("../resources/java.jpg");
     show_hide()
     h3_selected_text.textContent="Java Seleccionado"
+    selected_product_name.textContent="Java"
+
+    verification_check.classList.remove("check_dissapear")
+    verification_check.classList.add="check_appear"
 }
 
 function select_kenia (){
     selected_product.src=("../resources/kenia.jpg")
     show_hide()
     h3_selected_text.textContent="Kenia Seleccionado"
+    selected_product_name.textContent="Kenia"
+
+    verification_check.classList.remove("check_dissapear")
+    verification_check.classList.add="check_appear"
 }
 
 function select_tarrazu (){
     selected_product.src=("../resources/tarrazu.jpg");
     show_hide();
     h3_selected_text.textContent="Tarrazú Seleccionado"
+    selected_product_name.textContent="Tarrazú"
+
+    verification_check.classList.remove("check_dissapear")
+    verification_check.classList.add="check_appear"
 }
 
 function select_peaberry(){
     selected_product.src=("../resources/peaberry.jpg");
     show_hide();
     h3_selected_text.textContent="Peaberry Seleccionado"
+    selected_product_name.textContent="Peaberry"
+    
+    verification_check.classList.remove("check_dissapear")
+    verification_check.classList.add="check_appear"
 }
