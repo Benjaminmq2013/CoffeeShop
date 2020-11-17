@@ -87,7 +87,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
-.header_buttons--signup a:hover{
+.ordenar_option:hover header_buttons--signup a{
     color: black;
     padding: 9px;
     background-color: white;
@@ -502,14 +502,57 @@ footer a{
 .menu_button_container{
     position: relative;
 }
-
-.ordenar_option{
-    height: 100px;
-    width: 200px;
-    background-color: pink;
+.drop-down{
+    background-color: rgb(240, 240, 240);
     z-index: 2;
     position: absolute;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px;
+    display: none;
+    border: 3px solid rgb(211, 102, 0);    
+}
+.ordenar_option{
+    height: 100px;
+    width: 200px;   
     margin-right: 10px;
     left: -20px;
-    top: 30px;
+    top: 29px;
+}
+
+.ordenar_option ul li{
+    color: rgb(34, 34, 34);
+    margin: 18px 15px 0px 5px;;
+    border-bottom: 3px solid rgb(228, 77, 7);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.menu_button_container:hover .ordenar_option{    
+    display: block;
+    
+}
+
+/*  ********************* VARIEDADES */
+.menu_variedades_container{
+    position: relative;
+}
+.menu_variedades_container:hover .variedades_option{
+    display: block;
+}
+.variedades_option{
+    display: none;
+    width: 200px;
+    height: 240px;
+    top: 29px;
+    left: -28px;
+}
+
+
+.variedades_option li{
+    color: rgb(34, 34, 34);
+    margin: 18px 15px 0px 5px;;
+    border-bottom: 3px solid rgb(228, 77, 7);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }

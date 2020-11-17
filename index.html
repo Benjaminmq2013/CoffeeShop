@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="./menu/menu-animations.css">
 
+    <!-- MAPS FILES -->
+    <link rel="stylesheet" href="./maps_files/maps.css">
+
     
     <title>CoffeeShoop</title>
 </head>
@@ -75,15 +78,39 @@
                     </figure>
                     <div class="header_buttons">
                         <ul>
+
                             <li class="menu_button_container">
-                                <a href="./compra/buying.html">Ordenar</a>
-                                <div class="ordenar_option"></div> 
+                                <a id="ordenar_button" href="./compra/buying.html">Ordenar</a>
+                                <div class="drop-down ordenar_option">
+                                    <ul>
+                                        <li>Para consumidores</li>
+                                        <li>Para distribuidores</li>
+                                    </ul>
+                                </div> 
                             </li>
-                            <li>
+
+
+                            <li class="menu_variedades_container"> 
                                 <a href="">Variedades</a>
+                                <div class="drop-down variedades_option">
+                                    <ul>
+                                        <li>Moka</li>
+                                        <li>Java</li>
+                                        <li>Kenia</li>
+                                        <li>Tarrazú</li>
+                                        <li>Peaberry</li>
+                                    </ul>
+                                </div> 
                             </li>
+
+
                             <li>
                                 <a href="">Cómo llegar</a>
+                                <div>
+                                    <h3>Demostración Google Maps</h3>
+                                <!--The div element for the map -->
+                                <div id="map"></div>
+                                </div>
                             </li>
                             <li>
                                 <a href="">Contáctanos</a>
@@ -389,6 +416,14 @@
    <!--Menu-principal-opciones-->
     <script src="./menu/menu-animations.js"></script>
     <script src="./menu/menu-interaction.js"></script>
+
+
+    <!-- GOOGLE MAPS SCRIPTS -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <script src="./maps_files/maps.js"></script>
 </body>
 
 
