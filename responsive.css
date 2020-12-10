@@ -197,10 +197,10 @@
     }
     @keyframes menu-appear{
         0%{
-            left: -80vh;
+            left: -80vw;
         }
         100%{
-            left: 0vh;
+            left: 0vw;
         }
     }
     @keyframes menu-disappear{
@@ -208,7 +208,7 @@
             left: 0vh;
         }
         100%{
-            left: -80vh;
+            left: -100vw;
         }
     }
     
@@ -323,7 +323,8 @@
         height: 225px;
     }
     #details_image-simbol1{
-        height:16px;
+        height: 16px;
+        width: 14px;
     }
     
     .quality_items-container{
